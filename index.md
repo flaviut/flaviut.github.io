@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Me
+title: Flaviu Tamas | Me
+description: Flaviu Tamas's personal website. Flaviu Tamas is currently a student at GSMST.
 ---
 
 ## About Me
