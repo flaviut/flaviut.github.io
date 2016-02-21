@@ -18,6 +18,6 @@ I'm currently a student and work at [Micromeritics]. My resume can be found [her
 ## Pages
 <ul>
 {% for post in site.posts %}
-  <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url }}/">{{ post.title }}</a></li>
+  <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
