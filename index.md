@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Flaviu Tamas
-description: Flaviu Tamas's personal website. Flaviu Tamas is currently a student at GSMST.
+description: Flaviu Tamas's personal website.
 ---
 
 ## About Me
 
-I'm currently a student. My resume can be found [here][resume].
+I'm currently a student and work at [Micromeritics]. My resume can be found [here][resume].
 
 [micromeritics]: http://www.micromeritics.com/
 [resume]: https://drive.google.com/open?id=0B9O7w68iCyWFVFdHMkJYSUxwLUE
