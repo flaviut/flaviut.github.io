@@ -6,10 +6,11 @@ description: Flaviu Tamas's personal website.
 
 ## About Me
 
-I'm currently a student and work at [Micromeritics]. [My resume can be found here.][resume]
+I'm a student at [Kennesaw State Univeristy][ksu], currently working at [Micromeritics][]. [My resume can be found here.][resume]
 
 [micromeritics]: http://www.micromeritics.com/
 [resume]: https://drive.google.com/open?id=0B1lFilx0211ITmZEa1gyZy1sVjA
+[ksu]: https://www.kennesaw.edu/
 
 ## Contact
 <a href="mailto:me@flaviutamas.com"><i class="icon-big icon-mail-squared"></i></a>
