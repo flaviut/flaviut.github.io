@@ -6,7 +6,9 @@ description: Flaviu Tamas's personal website.
 
 ## About Me
 
-I'm a student at [Kennesaw State Univeristy][ksu], currently working at [Micromeritics][]. [My resume can be found here.][resume]
+I'm a Computer Science student at [Kennesaw State Univeristy][ksu], and a student intern at [Micromeritics][].
+
+[My resume can be found here.][resume]
 
 [micromeritics]: http://www.micromeritics.com/
 [resume]: https://drive.google.com/open?id=0B1lFilx0211ITmZEa1gyZy1sVjA
