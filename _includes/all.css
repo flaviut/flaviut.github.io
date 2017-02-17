@@ -168,6 +168,8 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+img { max-width: 100%; }
+
 header { text-align: center; }
 
 footer {
