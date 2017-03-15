@@ -4,9 +4,10 @@ title: Making Docker and hostapd work together
 description: "How I debugged and fixed an issue where launching the Docker service would break the internet connection for WiFi clients."
 ---
 
-At some point, I installed updates and was surprised to see that I could no
-longer connect to the internet through the hotspot I had set up on my PC using
-[hostapd][].
+At some point, I ran `pacman -Syu` and was surprised to see that I could no
+longer connect to the internet from my phone! I use [hostapd][] to use my
+desktop PC as a wireless hotspot, and something in the update broke my
+configuration.
 
 I soon discovered that if I disabled the [Docker][] service, then my WiFi would
 work fine after I restarted my system, but break when I started Docker! So it
