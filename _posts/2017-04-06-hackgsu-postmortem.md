@@ -42,24 +42,25 @@ So we tried to use an Arduino 101 that we borrowed from downstairs, but it was
 broken. We couldn't figure out what was wrong, but then we finally ended up
 exchanging it and the new one worked fine. The resolution on the 101's
 accelerometer is really great, and we had no problems with noise. Kevin graphed
-the data on LibreOffice Calc, and used the graph for guidance while writing the
-detection code.
+the data on LibreOffice Calc, and used the graph for guidance while writing [the
+detection code][detect-source].
 
 {% include image.html
     url="/assets/images/2017-04-06-hackgsu-postmortem/1.png"
     description="Newer version of Kevin's graph. Note the lack of noise!" %}
 
-Cameron worked on the Android app. We had a lot of trouble with it, because
-none of us had ever worked on an Android app or Android Bluetooth. I learned
-that a) copy-pasting code without understand it doesn't work, and b) we
-shouldn't choose technologies that none of us have even touched. **A hackathon
-is not the time to learn a complicated system like Android from scratch.**
+Cameron worked on the [Android app][android-source]. We had a lot of trouble
+with it, because none of us had ever worked on an Android app or Android
+Bluetooth. I learned that a) copy-pasting code without understand it doesn't
+work, and b) we shouldn't choose technologies that none of us have even
+touched. **A hackathon is not the time to learn a complicated system like
+Android from scratch.**
 
 Me and Lee set up the website. Lee initially implemented it in PHP & MySQL, but
-then we rewrote it in Python 3, Flask, SQLAlchemy, and PostgreSQL. Writing the
-website was pretty straightforward. Even though we were not familiar with Flask
-or SQLAlchemy, we were familiar with web development in Python, so we didn't
-run into any issues.
+then [we rewrote it][website-source] in Python 3, Flask, SQLAlchemy, and
+PostgreSQL. Writing the website was pretty straightforward. Even though we were
+not familiar with Flask or SQLAlchemy, we were familiar with web development in
+Python, so we didn't run into any issues.
 
 Lee tried to set up Apache2 on the EC2 server to host the server. We spent a
 few hours trying to get that to work. We eventually just gave up and set up a
@@ -75,3 +76,6 @@ matters is that the demo seems to work.**
 [win]: https://hackgsu-spring-2017.devpost.com/submissions/search?utf8=✓&terms=SmartBar
 [grove-accel]: http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-1.5g/
 [mma7660fc]: http://www.nxp.com/assets/documents/data/en/data-sheets/MMA7660FC.pdf
+[android-source]: https://github.com/KevinAiken/Smart-Bar/tree/master/android-app
+[website-source]: https://github.com/KevinAiken/Smart-Bar/tree/master/hsus
+[detect-source]: https://github.com/KevinAiken/Smart-Bar/tree/master/read-accel
