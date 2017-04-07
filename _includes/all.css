@@ -183,3 +183,5 @@ a:hover { text-decoration: underline; }
 
 footer a { color: #777; }
 footer a:visited, footer a:hover { color: #BBB; }
+
+figcaption { font-size: 80%; text-align: center; }
