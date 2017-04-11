@@ -62,6 +62,10 @@ PostgreSQL. Writing the website was pretty straightforward. Even though we were
 not familiar with Flask or SQLAlchemy, we were familiar with web development in
 Python, so we didn't run into any issues.
 
+{% include image.html
+    url="/assets/images/2017-04-06-hackgsu-postmortem/3.png"
+    description="Final version of the website, loaded with random data." %}
+
 Lee tried to set up Apache2 on the EC2 server to host the server. We spent a
 few hours trying to get that to work. We eventually just gave up and set up a
 dev server with Nginx proxying port 80 to port 6000. The lesson here is to
