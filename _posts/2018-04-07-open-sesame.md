@@ -36,12 +36,12 @@ the board.
 
 The most fun part of the hardware was designing our own components in FreeCAD,
 a parametric CAD program, to be 3-d printed. Along with helping Leon with his
-first time using any CAD software, I made the bolts to hold the motor in and
-the fillet on the main frame:
+first time using any CAD software, I made the bolts (blue) to hold the motor in
+and the fillet on the main frame (red):
 
 {% include image.html
     url="/assets/images/2018-04-07-open-sesame/3d.png"
-    description="Render of our components. I did the fillet and the bolts!" %}
+    description="Render of our components." %}
 
 Of course, our design didn't actually work on the first try (although the 3d
 print was perfect on the first try!). We should have moved the motor about
