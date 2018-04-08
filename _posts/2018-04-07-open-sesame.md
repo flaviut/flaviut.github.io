@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open Sesame: Building a face-detecting lock"
+title: 'Open Sesame: Unlock doors… with your face (HackPrinceton S18)'
 description: "Combining 3-d printing, Azure compute services, and Linux into a self-unlocking deadbolt"
 ---
 

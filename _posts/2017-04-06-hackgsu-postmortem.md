@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HackGSU Spring 2017 Postmortem
+title: 'SmartBar: Computer-assisted curls (HackGSU S17)'
 ---
 
 I attended [HackGSU][] last weekend, and it was my first hackathon. I worked in

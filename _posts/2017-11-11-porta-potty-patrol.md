@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HackGSU Fall '17: Porta Potty Patrol"
+title: "Porta Potty Patrol: Detect dirty toilets (HackGSU F17)"
 ---
 
 
