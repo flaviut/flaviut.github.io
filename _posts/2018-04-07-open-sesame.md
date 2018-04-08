@@ -59,7 +59,7 @@ specific number of steps to open and close the deadbolt.
 
 ## The software
 
-There was also software, although nothing special. The code is [on github][],
+There was also software, although nothing special. The code is [on GitHub][],
 so go get it. The face API allows 16KiB of metadata, so we used that to store
 thumbnails, which we generated in the browser (based on [Joel Vardy's
 code][jv-code], see [resize.js][]). This allowed us to serve the site as a
@@ -69,9 +69,8 @@ frontend, but hey, it's just gonna run on my machine and I trust me.
 
 {% include image.html
     url="/assets/images/2018-04-07-open-sesame/mp.png"
-    description="By the time I wrote this, the data was destoryed and the keys
-    invalidated, so you'll have to use your imagination a little on how the
-    main page used to look." %}
+    description="By the time I wrote this, the data was destroyed and the keys
+    invalidated, so you'll have to pretend this page is filled in." %}
 
 {% include image.html
     url="/assets/images/2018-04-07-open-sesame/au.png"
