@@ -6,8 +6,8 @@ description: Flaviu Tamas's personal website.
 
 ## About Me
 
-I'm a Computer Science student at [Georgia State][gsu], and a co-op student at
-[Georgia Tech Research Corporation][gtri].
+I'm a Computer Science student at [Georgia State][gsu], and a co-op at [Georgia
+Tech Research Corporation][gtri].
 
 [My resume can be found here.][resume]
 
