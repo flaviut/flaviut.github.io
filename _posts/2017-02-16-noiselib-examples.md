@@ -18,12 +18,12 @@ kind of noise that it can generate. I'm particularly happy with this sample,
 {% include image.html
     url="/assets/images/2017-02-16-noiselib-examples/1.png" %}
 
-I've never seen anything like it, although it isn't anything special. Everyone
-is focused using [FBM][] with [perlin noise][].
+I've never seen anything like it, although it isn't anything special. The
+general focus is on using [FBM][] with [perlin noise][], since it generates
+realistic terrain.
 
 [flaviut/noiselib]: https://github.com/flaviut/noiselib
 [noiselib-site]: https://flaviutamas.com/noiselib/
 [wnfbm-ref]: https://flaviutamas.com/noiselib/#White.noise.with.FBM
-[white-noise-fbm]: 
-[fbm]: https://en.wikipedia.org/wiki/Fractional_Brownian_motion
+[FBM]: https://en.wikipedia.org/wiki/Fractional_Brownian_motion
 [perlin noise]: https://en.wikipedia.org/wiki/Perlin_noise
