@@ -21,7 +21,7 @@ I'm a Computer Science student at [Georgia State][gsu], and a intern at
 <a href="mailto:me@flaviutamas.com"><i class="icon-big icon-mail-squared"></i></a>
 <a href="https://github.com/flaviut/"><i class="icon-big icon-github-squared"></i></a>
 
-## Pages
+## Articles
 <ul>
 {% for post in site.posts %}
   <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
