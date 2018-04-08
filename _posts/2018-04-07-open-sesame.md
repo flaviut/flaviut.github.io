@@ -26,7 +26,7 @@ and whether or not they were were shoplifters.
 [Auto Metrics]: https://devpost.com/software/auto-metrics
 [open-sesame]: https://devpost.com/software/open-sesame-dj0leg
 
-## The Hardware
+## The hardware
 
 Our initial plan was to build this on top of a [DragonBoard 410c][], but our
 dreams were quickly cut short when we realized that we didn't have a USB
