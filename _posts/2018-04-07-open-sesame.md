@@ -77,6 +77,11 @@ frontend, but hey, it's just gonna run on my machine and I trust me.
     url="/assets/images/2018-04-07-open-sesame/au.png"
     description="The page for adding a new user looks just fine though!" %}
 
+{% include image.html
+    url="/assets/images/2018-04-07-open-sesame/art.jpg"
+    description="Bonus picture: Mount Vesuvius and the Bay of Naples, as
+    displayed at the Princeton University Art Museum." %}
+
 [on github]: https://github.com/flaviut/hackprinceton-s2018
 [jv-code]: https://github.com/joelvardy/javascript-image-upload
 [resize.js]: https://github.com/flaviut/hackprinceton-s2018/blob/master/frontend/js/resize.js
