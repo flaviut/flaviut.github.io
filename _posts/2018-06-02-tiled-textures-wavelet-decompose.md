@@ -50,7 +50,6 @@ I'm not sure how useful it is in this specific example, but there's way more to
 this filter [than removing blemishes][rm-blemish].
 
 
-[^1]: I tried JPEG first, but the artifacts were unacceptable, and for the
-  stuff we'll be doing here we need the full 32-bit channels.
-[^2]: GIMP actually looks, and is way faster than last time I used it.
+[^1]: I tried JPEG first, but the artifacts were unacceptable, and for the stuff we'll be doing here we need the full 32-bit channels.
+[^2]: GIMP looks amazing now, and is way faster than last time I used it.
 [rm-blemish]: http://registry.gimp.org/node/11742
