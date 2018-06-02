@@ -12,20 +12,6 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <script>
-      WebFontConfig = {
-        google: { families: [ 'Merriweather:400,700,400italic', 'Lato:700' ] }
-      };
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })(); </script>
-
     <style type="text/css">
       {% include all.css %}
     </style>
@@ -33,9 +19,9 @@
 
   <body>
 
-    <header>
-      <h1>{{ page.title }}</h1>
-    </header>
+    <nav class="sidebar-wrapper"><div class="sidebar-body">
+      <a href="/" alt="home page">flaviutamas.com</a>
+    <div></nav>
 
     <main>
       {{ content }}

@@ -1,64 +1,6 @@
-.hll { background-color: #ffffcc }
-.c { color: #999988; font-style: italic } /* Comment */
-.err { color: #a61717; background-color: #e3d2d2 } /* Error */
-.k { color: #000000; font-weight: bold } /* Keyword */
-.o { color: #000000; font-weight: bold } /* Operator */
-.cm { color: #999988; font-style: italic } /* Comment.Multiline */
-.cp { color: #999999; font-weight: bold; font-style: italic } /* Comment.Preproc */
-.c1 { color: #999988; font-style: italic } /* Comment.Single */
-.cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
-.gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
-.ge { color: #000000; font-style: italic } /* Generic.Emph */
-.gr { color: #aa0000 } /* Generic.Error */
-.gh { color: #999999 } /* Generic.Heading */
-.gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
-.go { color: #888888 } /* Generic.Output */
-.gp { color: #555555 } /* Generic.Prompt */
-.gs { font-weight: bold } /* Generic.Strong */
-.gu { color: #aaaaaa } /* Generic.Subheading */
-.gt { color: #aa0000 } /* Generic.Traceback */
-.kc { color: #000000; font-weight: bold } /* Keyword.Constant */
-.kd { color: #000000; font-weight: bold } /* Keyword.Declaration */
-.kn { color: #000000; font-weight: bold } /* Keyword.Namespace */
-.kp { color: #000000; font-weight: bold } /* Keyword.Pseudo */
-.kr { color: #000000; font-weight: bold } /* Keyword.Reserved */
-.kt { color: #445588; font-weight: bold } /* Keyword.Type */
-.m { color: #009999 } /* Literal.Number */
-.s { color: #d01040 } /* Literal.String */
-.na { color: #008080 } /* Name.Attribute */
-.nb { color: #0086B3 } /* Name.Builtin */
-.nc { color: #445588; font-weight: bold } /* Name.Class */
-.no { color: #008080 } /* Name.Constant */
-.nd { color: #3c5d5d; font-weight: bold } /* Name.Decorator */
-.ni { color: #800080 } /* Name.Entity */
-.ne { color: #990000; font-weight: bold } /* Name.Exception */
-.nf { color: #990000; font-weight: bold } /* Name.Function */
-.nl { color: #990000; font-weight: bold } /* Name.Label */
-.nn { color: #555555 } /* Name.Namespace */
-.nt { color: #000080 } /* Name.Tag */
-.nv { color: #008080 } /* Name.Variable */
-.ow { color: #000000; font-weight: bold } /* Operator.Word */
-.w { color: #bbbbbb } /* Text.Whitespace */
-.mf { color: #009999 } /* Literal.Number.Float */
-.mh { color: #009999 } /* Literal.Number.Hex */
-.mi { color: #009999 } /* Literal.Number.Integer */
-.mo { color: #009999 } /* Literal.Number.Oct */
-.sb { color: #d01040 } /* Literal.String.Backtick */
-.sc { color: #d01040 } /* Literal.String.Char */
-.sd { color: #d01040 } /* Literal.String.Doc */
-.s2 { color: #d01040 } /* Literal.String.Double */
-.se { color: #d01040 } /* Literal.String.Escape */
-.sh { color: #d01040 } /* Literal.String.Heredoc */
-.si { color: #d01040 } /* Literal.String.Interpol */
-.sx { color: #d01040 } /* Literal.String.Other */
-.sr { color: #009926 } /* Literal.String.Regex */
-.s1 { color: #d01040 } /* Literal.String.Single */
-.ss { color: #990073 } /* Literal.String.Symbol */
-.bp { color: #999999 } /* Name.Builtin.Pseudo */
-.vc { color: #008080 } /* Name.Variable.Class */
-.vg { color: #008080 } /* Name.Variable.Global */
-.vi { color: #008080 } /* Name.Variable.Instance */
-.il { color: #009999 } /* Literal.Number.Integer.Long */
+.highlight .gh,.highlight .gp,.highlight .gs,.highlight .gu{font-weight:700}.highlight,.highlight pre,.highlight table{color:#f5f5f5}.highlight .c{color:#505050}.highlight .err{color:#fb9fb1}.highlight .k{color:#e1a3ee}.highlight .l{color:#eda987}.highlight .h,.highlight .n{color:#f5f5f5}.highlight .o{color:#12cfc0}.highlight .p{color:#f5f5f5}.highlight .c1,.highlight .cm,.highlight .cp,.highlight .cs{color:#505050}.highlight .gd{color:#fb9fb1}.highlight .ge{font-style:italic}.highlight .gh{color:#f5f5f5}.highlight .gi{color:#acc267}.highlight .gp{color:#505050}.highlight .gu{color:#12cfc0}.highlight .kc,.highlight .kd{color:#e1a3ee}.highlight .kn{color:#12cfc0}.highlight .kp,.highlight .kr{color:#e1a3ee}.highlight .kt{color:#ddb26f}.highlight .ld{color:#acc267}.highlight .m{color:#eda987}.highlight .s{color:#acc267}.highlight .na{color:#6fc2ef}.highlight .nb{color:#f5f5f5}.highlight .nc{color:#ddb26f}.highlight .no{color:#fb9fb1}.highlight .nd{color:#12cfc0}.highlight .ni{color:#f5f5f5}.highlight .ne{color:#fb9fb1}.highlight .nf{color:#6fc2ef}.highlight .nl{color:#f5f5f5}.highlight .nn{color:#ddb26f}.highlight .nx{color:#6fc2ef}.highlight .py{color:#f5f5f5}.highlight .nt{color:#12cfc0}.highlight .nv{color:#fb9fb1}.highlight .ow{color:#12cfc0}.highlight .w{color:#f5f5f5}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#eda987}.highlight .sb{color:#acc267}.highlight .sc{color:#f5f5f5}.highlight .sd{color:#505050}.highlight .s2{color:#acc267}.highlight .se{color:#eda987}.highlight .sh{color:#acc267}.highlight .si{color:#eda987}.highlight .s1,.highlight .sr,.highlight .ss,.highlight .sx{color:#acc267}.highlight .bp{color:#f5f5f5}.highlight .vc,.highlight .vg,.highlight .vi{color:#fb9fb1}.highlight .il{color:#eda987}
+
+@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eRZDf-LHrw.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eRZKf-LHrw.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eRZBf-LHrw.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eRZAf-LHrw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather Regular'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather Regular'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-eCZMZ-Y.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather Regular'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-cyZMZ-Y.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather Regular'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-ciZMZ-Y.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather Regular'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVcf6lvg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZXMf6lvg.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZV8f6lvg.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVsf6lvg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face {
   font-family: 'fontello';
   src: url('/assets/font/fontello.eot');
@@ -69,18 +11,8 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?21927372#fontello') format('svg');
-  }
-}
-*/
  
- [class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -118,18 +50,7 @@
 .icon-home:before { content: '\e800'; } /* '' */
 .icon-mail-squared:before { content: '\e801'; } /* '' */
 .icon-github-squared:before { content: '\e802'; } /* '' */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
-}
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Merriweather'), url(https://fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
-}
+
 h1, h2, h3, h4, h5 {
   line-height: 1.2;
   font-family: 'Lato', sans-serif;
@@ -137,23 +58,18 @@ h1, h2, h3, h4, h5 {
 
 
 pre, code {
-  font-family: 'DejaVu Sans Mono', 'Lucida Sans Typewriter',
-    'Lucida Console', 'monaco', 'Bitstream Vera Sans Mono', 'monospace';
-  background-color: #EEE;
+  font-family: 'DejaVu Sans Mono', 'monospace';
 }
 
 pre code {
+  background-image: url('/assets/images/code_bg.png');
   padding: 1em;
   word-wrap: break-word;
   white-space: pre-wrap;
   display: block;
 }
 
-code { padding: 1px 0.25em; }
-
-.float-left { float: left; }
 .center-text { text-align: center; }
-
 .icon-big { font-size: 3em; }
 
 
@@ -162,10 +78,30 @@ body {
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
-  color: #444;
+  background-image: url('/assets/images/background.jpg');
+  color: #0f0a01;
   padding: 0px 10px;
 
   font-family: 'Merriweather', serif;
+}
+
+nav a:visited { color: #3972A5 }
+.sidebar-body {
+  text-align: right;
+  border-bottom: 1px solid #0f0a01;
+  max-width: 650px;
+}
+@media only screen and (min-width: 800px) {
+  .sidebar-wrapper {
+    position: relative;
+    left: -385px;
+    top: 12em;
+    transform: rotate(-90deg);
+  }
+  .sidebar-body {
+    position: absolute;
+    width: 30em;
+  }
 }
 
 img { max-width: 100%; }
@@ -177,8 +113,8 @@ footer {
   text-align: center;
 }
 
-a { color: #940A00; text-decoration: none; }
-a:hover, a:visited { color: #CF6029; }
+a { color: #3972A5; text-decoration: none; }
+a:hover, a:visited { color: #659CBB; }
 a:hover { text-decoration: underline; }
 
 footer a { color: #777; }
