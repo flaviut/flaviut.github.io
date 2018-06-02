@@ -23,7 +23,7 @@ edited individually.
 
 {% include image.html
     url="/assets/images/2018-06-02-tiled-textures-wavelet-decompose/decompose_layers.png"
-    description="Output of the wavelet decompose filter" %}
+    description="Output of the wavelet decompose filter." %}
 
 You'll notice that all the crazy lighting is on the "Residual" layer. So just
 get rid of that, and BAM:
