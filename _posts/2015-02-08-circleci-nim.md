@@ -1,7 +1,8 @@
 ---
 layout: post
+tags: [nim, linux, continuous-integration]
 title: Using Nim with CircleCI
-description: "Using CircleCI and the Nim programming language to do continous integration"
+description: "Using CircleCI and the Nim programming language to do continuous integration"
 ---
 Using [Nim][] with [CircleCI][] is fairly easy, the same instructions can be
 used for bootstrapping as usual.

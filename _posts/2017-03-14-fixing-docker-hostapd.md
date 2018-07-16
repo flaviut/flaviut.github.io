@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [virtualization, linux, docker, networking]
 title: Making Docker and hostapd work together
 description: "How I debugged and fixed an issue where launching the Docker service would break the internet connection for WiFi clients."
 ---

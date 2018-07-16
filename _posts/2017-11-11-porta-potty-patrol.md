@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [hackathon, hackgsu, hardware]
 title: "Porta Potty Patrol: Detect dirty toilets (HackGSU F17)"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [hackathon, hackgsu, hardware]
 title: "Forgot to fill your water bottle? Have your phone remind you! (HackGSU S18)"
 ---
 

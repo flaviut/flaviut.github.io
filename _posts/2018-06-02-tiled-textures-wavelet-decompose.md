@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [design]
 title: 'Generating tileable textures with wavelet decompose'
 ---
 

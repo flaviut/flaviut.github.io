@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [hackathon, hackgsu, hardware]
 title: 'SmartBar: Computer-assisted curls (HackGSU S17)'
 ---
 
