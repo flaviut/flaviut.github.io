@@ -25,4 +25,6 @@ Tech Research Institute][gtri].
 {% for post in site.posts %}
   <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+  <li><span style="font-weight: bold"><a href="/tags">Posts by tag</a></span></li>
 </ul>
+

@@ -10,6 +10,7 @@
     <title>{{ page.title }}</title>
 
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>{% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -22,7 +23,7 @@
 
     <nav class="sidebar-wrapper"><div class="sidebar-body">
       <a href="/" alt="home page">flaviutamas.com</a>
-    <div></nav>
+    </div></nav>
 
     <main>
       {{ content }}
