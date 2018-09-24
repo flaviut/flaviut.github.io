@@ -136,7 +136,7 @@ And check to make sure that the routes are properly set, i.e. that the default
 route is not via `tun0`:
 
 ```console
-$ ip route                                                                                            ✘ 130 
+$ ip route
 default via 192.168.0.1 dev enp3s0 src 192.168.0.18
 default via 192.168.0.1 dev enp3s0 proto dhcp src 192.168.0.18 metric 1024
 131.96.0.0/16 dev tun0 scope link
