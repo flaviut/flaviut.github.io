@@ -13,11 +13,33 @@ network with, which is publicly available at secureaccess.gsu.edu.
 Unfortunately, they don't provide instructions on how to use this service from
 Linux.
 
-The [openconnect][] project implements the VPN protocol needed, so we can use
-that to log in:
+The [openconnect][] project implements the VPN protocol needed, so install it
+with your distribution's package manager, and use it to log in:
+
+[openconnect]: http://www.infradead.org/openconnect/index.html
 
 ```console
-# openconnect secureaccess.gsu.edu
+$ sudo apt install openconnect  # Ubuntu/Debian
+$ sudo dnf install openconnect  # Fedora
+$ sudo pacman -S openconnect  # Arch Linux
+$ sudo openconnect secureaccess.gsu.edu
+POST https://secureaccess.gsu.edu/
+Connected to 131.96.5.6:443
+SSL negotiation with secureaccess.gsu.edu
+Connected to HTTPS on secureaccess.gsu.edu
+XML POST enabled
+Please enter your username and password.
+GROUP: [Off Campus|On Campus|Wireless|vCRM]:Off Campus
+POST https://secureaccess.gsu.edu/
+XML POST enabled
+Please enter your username and password.
+Username:<campus id>
+Password:
+POST https://secureaccess.gsu.edu/
+Got CONNECT response: HTTP/1.1 200 OK
+CSTP connected. DPD 30, Keepalive 20
+Connected as 131.96.253.123, using SSL
+Established DTLS connection (using GnuTLS). Ciphersuite (DTLS0.9)-(DHE-RSA-4294967237)-(AES-256-CBC)-(SHA1).
 ```
 
 This works, but there's some caveats:
