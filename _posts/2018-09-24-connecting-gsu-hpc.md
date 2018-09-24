@@ -86,7 +86,7 @@ Address: 131.96.171.80
 ```
 
 The address listed here can then be looked up to check the size of the subnet
-GSU owns: https://whois.arin.net/rest/net/NET-131-96-0-0-1/pft. In this case,
+GSU owns: <https://whois.arin.net/rest/net/NET-131-96-0-0-1/pft>. In this case,
 GSU owns a `/16`, so create a `/etc/vpnc/connect.d/gsu-routes.sh` file, and set
 the relevant environment variables:
 
