@@ -20,15 +20,18 @@ that to log in:
 # openconnect secureaccess.gsu.edu
 ```
 
-This has a couple problems:
+This works, but there's some caveats:
 
  - You need to enter your credentials manually
  - All the traffic on your machine will pass through the tunnel
 
-I like automated solutions, and I don't trust GSU with all my traffic.
+You can stop here if you'd like; at this point you can ssh to hpclogin.gsu.edu
+without a problem. But I like automated solutions, and I don't trust GSU with
+all my traffic.
 
-We need to do a couple things to fix these issues. First, let's make it
-non-interactive:
+## Making it non-interactive
+
+First, let's make it non-interactive:
 
 ```console
 # cat /root/gsu_password | \
@@ -44,6 +47,8 @@ locked down to something like `0600`: allow root to read/write, deny access to
 everyone else. Storing a password in a file like this is not nice, but it's the
 only option for non-interactivity. From what I can tell, the service doesn't
 offer any kind of key-based authentication.
+
+## Only tunnel GSU-related traffic
 
 And then, to avoid tunneling all traffic through the GSU network, we must first
 find GSU's subnet:
@@ -76,6 +81,8 @@ export CISCO_SPLIT_INC_0_ADDR=131.96.0.0 \
        CISCO_SPLIT_INC_0_MASK=255.255.0.0 \
        CISCO_SPLIT_INC_0_MASKLEN=16
 ```
+
+## Testing it out
 
 Putting it all together:
 
