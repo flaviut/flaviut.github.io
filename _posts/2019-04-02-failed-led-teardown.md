@@ -14,7 +14,7 @@ I was curious about what was causing this, so I decided to take it apart.
 ## PSU PCB
 
 Here are some shots of the power PCB after carefully removing the glass cover &
-removing the heat transfer potting:
+the heat transfer potting:
 
 {% include image.html
     url="/assets/images/2019-04-02-failed-led-teardown/pic_1.jpg"
@@ -47,7 +47,7 @@ removing the heat transfer potting:
 ## Cause of failure
 
 {% include image.html
-    url="/assets/images/2019-04-02-failed-led-teardown/pic_7.jpg"
+    url="/assets/images/2019-04-02-failed-led-teardown/pic_8.jpg"
     description="Heat discoloration of bulk capacitor heatshrink" %}
 
 It's hard to say what the real cause of failure was here. The bulk capacitor
