@@ -52,11 +52,10 @@ the heat transfer potting:
 
 It's hard to say what the real cause of failure was here. The bulk capacitor
 obviously doesn't look too great, but measuring it gives the correct value. The
-BJT also seems to measure correctly.
+BJTs also seem to measure correctly.
 
-I'm unable to connect the board to power and test it that way since the
-mechanical forces involved in disassembling the bulb have lifted quite a few
-traces & broken the board in half.
+I'm unable to connect the board to power and test it that way since I broke it
+during disassembly.
 
 Unfortunately it looks like there's no way to figure out what failed.
 
