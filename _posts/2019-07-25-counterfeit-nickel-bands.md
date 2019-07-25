@@ -62,8 +62,8 @@ either iron or sodium.
 
 At first, I didn't realize that sodium contamination could be a problem. After
 careful reading though, I decided to try cleaning my strip in hydrochloric acid
-before applying the flame. This mimics the process used when placing flame test
-samples on a platinum wire:
+before applying the flame. This mimics the procedure used when placing flame
+test samples on a platinum wire:
 
 > Samples are usually held on a platinum wire cleaned repeatedly with
 > hydrochloric acid<sup>[[1]][sodium-contamination]</sup>
