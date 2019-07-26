@@ -51,9 +51,8 @@ test][].
     url="/assets/images/2019-07-25-counterfeit-nickel-bands/flame-test.jpg"
     description="Yellow/orange flame from nickel strip" %}
 
-The results from the flame test are conclusive. This strip does not have
-significant nickel content, which glows silver-white. The orange flame indicates
-either iron or sodium.
+The flame isn't silver-white, so it's clearly not coming from nickel. It's
+orange, which indicates either iron or sodium.
 
 ### Potential contamination
 
