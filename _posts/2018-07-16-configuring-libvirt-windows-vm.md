@@ -16,10 +16,6 @@ a starting point. My goals were:
 - Shiny features. I'm not going to use them or even understand what they do but
   I'll be damned if I'm not going to enable them all.
 
-{% include image.html
-    url="/assets/images/2018-07-16-configuring-libvirt-windows-vm/shiny.jpg"
-    description="A photo of me (©<a href='https://commons.wikimedia.org/wiki/User:Joseph_C_Boone'>Joseph C Boone</a> CC-BY-SA-4.0)" %}
-
 ## Procedure
 
 If you have suggestions or this is totally broken now, please [let me know][]!
