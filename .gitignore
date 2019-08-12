@@ -1,4 +1,5 @@
 _site/*
+.jekyll-metadata
 
 Thumbs.db
 .DS_Store
