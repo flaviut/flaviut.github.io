@@ -69,7 +69,8 @@ There's a couple things that you must do for the remainder of this process to go
 - All lines must be drawn end-to-end, and in order. This also means you can
   only have a single shape, and it must be closed. If you need multiple shapes,
   use a separate sketch and follow the steps below multiple times.
-- Constrain one point of your sketch to the origin.
+- Make sure that your sketch is **exactly** centered. If you don't do this, you
+  will have issues aligning the pad in KiCad.
 
 ## Getting data out of FreeCAD
 
