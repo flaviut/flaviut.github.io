@@ -17,7 +17,7 @@ install-node: $(NODE_DEP_HASH)
 
 
 _includes/all.min.css: install-node _includes/all.css
-	yarn run -s postcss _includes/all.css --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > _includes/all.min.css
+	yarn run -s postcss _includes/all.css --use postcss-import --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > _includes/all.min.css
 .PHONY: min-css
 min-css: _includes/all.min.css
 
