@@ -2,6 +2,7 @@
   "name": "flaviut.github.io",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "repository": "git@github.com:flaviut/flaviut.github.io.git",
   "author": "Flaviu Tamas <tamasflaviu@gmail.com>",
   "devDependencies": {

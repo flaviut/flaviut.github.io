@@ -1,3 +1,6 @@
+.PHONY: all
+all: min-css min-images
+
 .PHONY: install
 install: install-ruby install-node
 
@@ -16,10 +19,10 @@ $(NODE_DEP_HASH): package.json yarn.lock
 install-node: $(NODE_DEP_HASH)
 
 
-_includes/all.min.css: install-node _includes/all.css
-	yarn run -s postcss _includes/all.css --use postcss-import --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > _includes/all.min.css
+assets/all.min.css: install-node assets/all.css
+	yarn run -s postcss assets/all.css --use postcss-import --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > assets/all.min.css
 .PHONY: min-css
-min-css: _includes/all.min.css
+min-css: assets/all.min.css
 
 IMAGES = $(shell find assets/images/ \( -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' \) -a ! -name '*.min.*' -type f)
 IMAGES_MIN_1 = $(patsubst %.jpg,%.min.jpg,$(IMAGES))
@@ -33,6 +36,3 @@ IMAGES_MIN = $(patsubst %.png,%.min.png,$(IMAGES_MIN_2))
 	convert $< \( -resize "570x>" -quality 85 -strip \) $@
 .PHONY: min-images
 min-images: $(IMAGES_MIN)
-
-.PHONY: all
-all: min-css min-images
