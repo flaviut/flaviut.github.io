@@ -4,12 +4,12 @@
 
 h1, h2, h3, h4, h5 {
   line-height: 1.2;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 
 
 pre, code {
-  font-family: 'DejaVu Sans Mono', 'monospace';
+  font-family: DejaVu Sans Mono, monospace;
 }
 
 pre code {
@@ -35,7 +35,7 @@ body {
   color: #0f0a01;
   padding: 0px 10px;
 
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif;
 }
 
 nav a:visited { color: #3972A5 }
