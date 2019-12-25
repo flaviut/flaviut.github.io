@@ -1,0 +1,13 @@
+{
+  "name": "flaviut.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:flaviut/flaviut.github.io.git",
+  "author": "Flaviu Tamas <tamasflaviu@gmail.com>",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.1.3",
+    "uglify-js": "^3.7.2"
+  }
+}
