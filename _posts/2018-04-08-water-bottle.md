@@ -14,9 +14,9 @@ Our goal is to measure the height of the water, so we turn the water bottle
 into one big capacitor. By coincidence, this is exactly what I was covering in
 Physics class at the time!
 
-The equation for capacitance is [*C=εA/d*][cap-eq], where *ε* is some fundamental
-constant (i.e. never change), *d* is the separation of the plates (never
-changes), and *A* is the area of overlap between the two places (changes with
+The equation for capacitance is [$$C=\varepsilon{}A/d$$][cap-eq], where $$\varepsilon$$ is some fundamental
+constant (i.e. never change), $$d$$ is the separation of the plates (never
+changes), and $$A$$ is the area of overlap between the two places (changes with
 the water level). Of course, this is a simplification, but since we don't care
 about exact numbers, just relationships, it will work for us.
 
@@ -36,14 +36,14 @@ Library][cap-lib], but here's the procedure:
    *SW1*.
 3. Start a timer.
 4. Measure the voltage over *R1*.
-5. When dV≈0V, stop the timer.
+5. When $$dV\approx{}0\textrm{V}$$, stop the timer.
 6. Repeat.
 
 Of course, this doesn't give us capacitance in Farads. It gives us some value
 which is[^1] proportional to capacitance. And if we have capacitance, we have
 water volume, we just need to do some calibration.
 
-[^1]: At the time we thought it was linearly proportional, but as shown by the equation *V(t)=V_0e^(-t/RC)*, the relationship is more complex.
+[^1]: At the time we thought it was linearly proportional, but as shown by the equation $$V(t)=V_0e^{-t/RC}$$, the relationship is more complex.
 
 [cap-eq]: https://en.wikipedia.org/wiki/Capacitance#Capacitors
 [cap-lib]: http://playground.arduino.cc/Main/CapacitiveSensor
