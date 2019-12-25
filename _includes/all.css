@@ -12,6 +12,7 @@ pre, code {
 
 pre code {
   background-image: url('/assets/images/code_bg.png');
+  background-size: 45px;
   padding: 1em;
   word-wrap: break-word;
   white-space: pre-wrap;
@@ -28,6 +29,7 @@ body {
   line-height: 1.6;
   font-size: 18px;
   background-image: url('/assets/images/background.jpg');
+  background-size: 100px;
   color: #0f0a01;
   padding: 0px 10px;
 
