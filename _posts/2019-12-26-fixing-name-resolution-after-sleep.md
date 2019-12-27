@@ -23,8 +23,8 @@ systemd-resolved[4659]: Failed to listen on UDP socket 127.0.0.53:53: Cannot ass
 systemd-resolved[4659]: Failed to start manager: Cannot assign requested address
 ```
 
-A bit of further debugging shows it's not possible to bind to `localhost` at
-all:
+A bit of further debugging shows it's not possible to bind to anything on
+`127.0.0.0/8`, at any port:
 
 ```
 $ python -c 'import socket; server = socket.socket(socket.AF_INET, socket.SOCK_STREAM); server.bind(("127.0.0.1", 4000))'
