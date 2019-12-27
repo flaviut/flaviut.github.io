@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blocking rouge DHCP servers with firewalld
-tags: [networking]
+tags: [networking, linux]
 ---
 
 ## Track down the servers

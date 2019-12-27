@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: []
+tags: [linux, networking]
 title: "Connecting to GSU's HPC cluster from Linux"
 ---
 
