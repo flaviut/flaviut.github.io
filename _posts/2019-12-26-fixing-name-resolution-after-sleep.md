@@ -26,7 +26,7 @@ systemd-resolved[4659]: Failed to start manager: Cannot assign requested address
 A bit of further debugging shows it's not possible to bind to `localhost` at
 all:
 
-```console
+```
 $ python -c 'import socket; server = socket.socket(socket.AF_INET, socket.SOCK_STREAM); server.bind(("127.0.0.1", 4000))'
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
@@ -35,7 +35,7 @@ OSError: [Errno 99] Cannot assign requested address
 
 Interesting… Well, let's take a look at the interfaces list:
 
-```console
+```
 $ ip addr
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
