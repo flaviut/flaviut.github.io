@@ -36,7 +36,7 @@ title: "LED Grow Light Teardown"
     description="The BM10F full bridge rectifier." %}
 {% include image.html
     url="/assets/images/2020-02-08-grow-light-teardown/cc-fan_05.jpg"
-    description="The [Bright Power Semiconductor Co. BP2338J](/files/2020-02-08-grow-light-teardown/BP2338J.pdf) constant-current LED driver. Pins 6 & 7 are not connected--it's unclear why this was done, but pins 8 & 7 and 5 & 6 are connected internally to the chip. You can also observe the current measurement: R2=1.8Ω, Vref=0.2V, and therefore the output current is Vref/R2=111mA. This matches the observed output current." %}
+    description="The <a href='/assets/files/2020-02-08-grow-light-teardown/BP2338J.pdf'>Bright Power Semiconductor Co. BP2338J</a> constant-current LED driver. Pins 6 & 7 are not connected--it's unclear why this was done, but pins 8 & 7 and 5 & 6 are connected internally to the chip. You can also observe the current measurement: R2=1.8Ω, Vref=0.2V, and therefore the output current is Vref/R2=111mA. This matches the observed output current." %}
 {% include image.html
     url="/assets/images/2020-02-08-grow-light-teardown/cc-fan_06.jpg"
     description="The output inductor and filtering capacitor. The transformer provides no isolation here." %}
@@ -57,10 +57,10 @@ title: "LED Grow Light Teardown"
     description="The VDR 07D561K MOV (blue)." %}
 {% include image.html
     url="/assets/images/2020-02-08-grow-light-teardown/cc-led_04.jpg"
-    description="Thie power supply makes use of the [Kiwi Instrument Corporation KP1062](/files/2020-02-08-grow-light-teardown/Kiwi-KP1062C.pdf)." %}
+    description="This power supply makes use of the <a href='/assets/files/2020-02-08-grow-light-teardown/Kiwi-KP1062C.pdf'>Kiwi Instrument Corporation KP1062</a> constant-current LED driver." %}
 {% include image.html
     url="/assets/images/2020-02-08-grow-light-teardown/cc-led_05.jpg"
     description="The 100V, 68uF output filtering capacitor." %}
 {% include image.html
     url="/assets/images/2020-02-08-grow-light-teardown/cc-led_06.jpg"
-    description="The bottom side of the power supply. Note that two transformer pins are tied together: it is being used as an non-isolated inductor, and was likely chosen over a regular inductor for cost reasons." %}, 
+    description="The bottom side of the power supply. Note that two transformer pins are tied together: it is being used as an non-isolated inductor, and was likely chosen over a regular inductor for cost reasons." %}
