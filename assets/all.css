@@ -12,6 +12,12 @@ pre, code {
   font-family: DejaVu Sans Mono, monospace;
 }
 
+/* Improve inline code contrast */
+code {
+    background: #fcf2f2;
+    color: #70000e;
+}
+
 pre code {
   background-image: url('/assets/images/code_bg.png');
   background-size: 45px;
