@@ -18,9 +18,12 @@ $(NODE_DEP_HASH): package.json yarn.lock
 .PHONY: install-node
 install-node: $(NODE_DEP_HASH)
 
+build-site: install-ruby $(shell find _layouts _posts _includes -type f)
+	bundle exec jekyll build
 
-assets/all.min.css: install-node assets/all.css
+assets/all.min.css: install-node build-site assets/all.css $(shell find _site -iname '*.html')
 	yarn run -s postcss assets/all.css --use postcss-import --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > assets/all.min.css
+	yarn run -s purifycss assets/all.min.css $(shell find _site -iname '*.html') --min --info -o assets/all.min.css
 .PHONY: min-css
 min-css: assets/all.min.css
 
