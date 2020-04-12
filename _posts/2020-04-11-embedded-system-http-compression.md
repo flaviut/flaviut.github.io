@@ -543,3 +543,7 @@ However, it seems like the performance sweet-spot for the type of slow wifi link
 Brotli is the only other compression algorithm widely supported by browsers, but its compression ratio is much worse, which makes it unsuitiable for on-the-fly compression on low-end hardware.
 
 It looks like the people behind zstd are looking to add it to browsers. When it's widely supported, this will likely beat gzip in this application, or at the very least allow for more fine-grained tuning of the compression ratio.
+
+## Notebook Download
+
+This document was built with a Jupyter Notebook. [Get it here.](/assets/files/2020-04-11-embedded-system-http-compression/embedded-system-http-compression.ipynb) The code licensed under [Apache-2.0](https://spdx.org/licenses/Apache-2.0).
