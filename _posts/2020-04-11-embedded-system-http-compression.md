@@ -231,7 +231,7 @@ plt.show()
 
 Now that we've figured out how long gzip takes us, we need to understand the performance of the board. One nice way to do that is by running `iperf3 -c <hardwired pc ip>` on the client device and `iperf3 -s` on a wired PC. It's probably a good idea to try this out at various times of the day and with various physical configurations of the board and the access point.
 
-Fortunately, if you don't want to do this, tkaiser has done lots of this work for us at https://forum.armbian.com/topic/3739-wi-fi-performance-and-known-issues-on-sbc/. I've used this forum topic as my reference for `typical_networks_kbps`.
+Fortunately, if you don't want to do this, tkaiser has done lots of this work for us at <https://forum.armbian.com/topic/3739-wi-fi-performance-and-known-issues-on-sbc/>. I've used this forum topic as my reference for `typical_networks_kbps`.
 
 
 ```python
