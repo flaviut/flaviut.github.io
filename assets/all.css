@@ -13,9 +13,14 @@ pre, code {
 }
 
 /* Improve inline code contrast */
-code {
+code.highlighter-rouge {
     background: #fcf2f2;
     color: #70000e;
+}
+
+code {
+    /* override spectre and allow the highlight to specify the color */
+    color: inherit;
 }
 
 pre code {
