@@ -14,8 +14,7 @@ anything. Most recently, that's meant various electronics.
 If you have any comments or questions about anything, please [feel free to
 email me][Email].
 
-I also have [a GitHub account][Github], where most of the open-source things
-I've worked on are.
+I also have [a GitHub account][Github], where the majority of my open-source work can be found.
 
 [Github]: https://github.com/flaviut/
 [Email]: mailto:me@flaviutamas.com
