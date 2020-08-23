@@ -4,11 +4,14 @@ tags: [iot, embedded, nrf52, thread]
 title: "Getting started with the nRF52 & Thread"
 ---
 
-Some personal notes for working with nRF52 hardware. The official documentation
-is oddly written and expects both too much and too little prior knowlage from
-the reader.
+These are some personal notes for working with nRF52 hardware. The official
+documentation is oddly written and expects both too much and too little prior
+knowledge from the reader.
 
 ## Running the Thread CLI
+
+Thread has a CLI that allows you to manage your Thread network. It's a good
+place to start since it's easy to verify that everything is working right.
 
 ### Required downloads
 
@@ -27,9 +30,14 @@ output directory.
 
 1. Navigate to `nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/examples/thread/cli/ftd/usb/pca10059/mbr/armgcc`.
 2. Build the program by running `make -j$(nproc)`. (make sure `GNU_INSTALL_ROOT` is set)
-3. You should see a message like `DONE nrf52840_xxaa` indicating successfully compilation.
+3. You should see a message like `DONE nrf52840_xxaa` indicating successful compilation.
 
 ### Flashing example program via DFU
+
+DFU is a bootloader and updater that makes it possible to update the code
+that's running on the nRF52 without hooking up a debugger. It also performs
+cryptographic checks to ensure that the code is trusted, although by default
+these checks are turned off during development.
 
 When you plug your dongle into your computer's USB port, you should see
 something like:
@@ -129,4 +137,4 @@ child
 2. Navigate to `nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/examples/dfu/open_bootloader/pca10059_usb_debug/hex`. There is a pre-built bootloader in this directory. For production use you will want to build your own bootloader with your own public key, but this is fine for development.
 3. Connect your ST-Link to your dongle and use the following OpenOCD command to flash the bootloader: `"$OPENOCD_DIR/bin/openocd" -f interface/stlink.cfg -c "transport select hla_swd" -f target/nrf52.cfg -c "init; halt; program {open_bootloader_usb_mbr_pca10059_debug.hex} verify; reset; exit"`
 4. If you see `** Verified OK **`, the flashing has been successful.
-4. Unplug the ST-Link from the dongle and reinsert the dongle into the USB port. You should see LED2 slowly fading in and out and `usb 1-1.2.3: Product: Open DFU Bootloader` in `dmesg`.
+5. Unplug the ST-Link from the dongle and reinsert the dongle into the USB port. You should see LED2 slowly fading in and out and `usb 1-1.2.3: Product: Open DFU Bootloader` in `dmesg`.
