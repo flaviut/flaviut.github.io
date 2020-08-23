@@ -12,7 +12,7 @@ the reader.
 
 ### Required downloads
 
-- [nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8](https://www.nordicsemi.com/-/media/Software-and-other-downloads/SDKs/nRF5-SDK-for-Thread/nRF5-SDK-for-Thread-and-Zigbee/nRF5SDKforThreadv41.zip})
+- [nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8](https://www.nordicsemi.com/-/media/Software-and-other-downloads/SDKs/nRF5-SDK-for-Thread/nRF5-SDK-for-Thread-and-Zigbee/nRF5SDKforThreadv41.zip)
 - [gcc-arm-none-eabi-7-2018-q2](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads/6-2017-q2-update)
 - nrfutil via `pip install --user nrfutil==6.1.0`
 
