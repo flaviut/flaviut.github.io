@@ -126,7 +126,7 @@ child
 ## Flashing the DFU bootloader
 
 1. Follow all the instructions in [Debugging][].
-2. Navigate to `nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/examples/dfu/open_bootloader/pca10059_usb_debug/hex`. There is a pre-built bootloader in this directory.
+2. Navigate to `nRF5_SDK_for_Thread_and_Zigbee_v4.1.0_32ce5f8/examples/dfu/open_bootloader/pca10059_usb_debug/hex`. There is a pre-built bootloader in this directory. For production use you will want to build your own bootloader with your own public key, but this is fine for development.
 3. Connect your ST-Link to your dongle and use the following OpenOCD command to flash the bootloader: `"$OPENOCD_DIR/bin/openocd" -f interface/stlink.cfg -c "transport select hla_swd" -f target/nrf52.cfg -c "init; halt; program {open_bootloader_usb_mbr_pca10059_debug.hex} verify; reset; exit"`
 4. If you see `** Verified OK **`, the flashing has been successful.
 4. Unplug the ST-Link from the dongle and reinsert the dongle into the USB port. You should see LED2 slowly fading in and out and `usb 1-1.2.3: Product: Open DFU Bootloader` in `dmesg`.
