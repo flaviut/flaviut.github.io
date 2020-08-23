@@ -2,7 +2,8 @@
   <a href="{{ include.url }}">
     <img
         src="{{ include.url | replace: '.jpg', '.min.jpg' | replace: '.png', '.min.png' | replace: '.jpeg', '.min.jpeg' }}"
-        alt="{{ include.description }}">
+        alt="{{ include.description }}"
+        loading="lazy">
   </a>
   <figcaption>{{ include.description }}</figcaption>
 </figure>
