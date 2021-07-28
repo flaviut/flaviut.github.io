@@ -4,8 +4,6 @@ tags: [embedded, hardware, iot, reverse engineering]
 title: "Reverse-engineering the Emporia Vue 2"
 ---
 
-# Reverse-engineering the Emporia Vue 2
-
 I grabbed a Emporia Vue 2 to keep track of my home's energy usage, since it is
 one of the few listed WiFi energy monitors.
 
@@ -26,7 +24,7 @@ the GATT protocol, and can be queried using the nRF Connect app, as well as the
 `btgatt-client` from `bluez-utils`.
 
 The provisioning protocol is documented at
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/provisioning/wifi_provisioning.html
+<https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/provisioning/wifi_provisioning.html>.
 
 There are two options for security with this setup:
 
@@ -609,6 +607,7 @@ I (147072) MQTTComms: MQTT_EVENT_DISCONNECTED
 way to specify credentials without deeper reverse engineering, so we can't
 authenticate to the MQTT server.
 
+```
 I (13322) MQTTComms: SUBSCRIBE to topic prod/minions/emporia/ct/v1/<id>8/cmd,  status=37249
 I (13332) MQTTComms: SUBSCRIBE to topic prod/minions/emporia/ct/v1/<id>8/fw,  status=64727
 I (13332) Json: Json_BuildAndSendInfo sending ({"event":"STARTUP","free_mem":4303960,"cpu_stats":"mqtt_task      \t3034772\t\t<1%\r\nWiFi           \t406926069\t\t10%\r\nIDLE1          \t1787872612\t\t46%\r\nIDLE0          \t538524270\t\t13%\r\nCT             \t34166486\t\t<1%\r\ntiT            \t3162833\t\t<1%\r\nTmr Svc        \t9970\t\t<1%\r\nbtuT           \t3358668\t\t<1%\r\nBTC_TASK       \t2573434\t\t<1%\r\nsys_evt        \t9470383\t\t<1%\r\nesp_timer      \t792967\t\t<1%\r\nwifi           \t209618326\t\t5%\r\nipc0           \t273062235\t\t7%\r\nipc1           \t93019349\t\t2%\r\nbtController   \t47665616\t\t1%\r\nhciT           \t3492562\t\t<1%\r\n","uptime":11550,"build_datetime":"Mon Jul 13 20:14:22 UTC 2020","build_commit":"45126ee0","response":"query_info","firmware_version":"Vue2-1594671260","idf_version":"v4.0","device_id":"<id>8","upload_frequency_seconds":1,"solar_enable":0,"solar_reverse":0,"wifi_rssi":-55,"wifi_authmode":3,"wifi_channel":6})
