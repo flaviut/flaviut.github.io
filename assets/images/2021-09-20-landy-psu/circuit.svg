@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 176.4 209.6">
+  <defs>
+    <linearGradient id="b" x1="0" x2="32" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08f708"/>
+      <stop offset="1" stop-color="#08f708"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" x2="32" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08f708"/>
+      <stop offset="1" stop-color="#40bf40"/>
+    </linearGradient>
+    <linearGradient id="e" x1="0" x2="32" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#40bf40"/>
+      <stop offset="1" stop-color="#877878"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="c" x1="0" x2="32" y1="0" y2="0" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#a" id="d" x1="0" x2="32" y1="0" y2="0" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M32.4 51.2h96m0 0v8m0 32v8" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="url(#b)" stroke-miterlimit="10" stroke-width="3" d="m0 0 2 6L6-6l4 12 4-12 4 12 4-12 4 12 4-12 2 6" paint-order="fill stroke markers" transform="rotate(90 34.6 93.8)"/>
+  <text x="394" y="206" dominant-baseline="alphabetic" font-family="sans-serif" font-size="12" text-decoration="normal" transform="translate(-255.6 -124.8)">240</text>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M128.4 131.2v32m0-32h-22" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M128.4 99.2h-22" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M106.4 131.2v-5" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#20df20" stroke-miterlimit="10" stroke-width="3" d="M106.4 120.2v-5" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M106.4 115.2v-5m0-6v-5" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M106.4 131.2v5" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M106.4 99.2v-5" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M128.4 131.2v-16m0 0h-22" paint-order="fill stroke markers"/>
+  <path fill="#877878" d="m106.4 115.2 12 5v-10z" paint-order="stroke fill markers"/>
+  <path fill="none" stroke="#40bf40" stroke-miterlimit="10" stroke-width="3" d="M32.4 115.2h68m0-8v16" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M128.4 51.2v-15" paint-order="fill stroke markers"/>
+  <text x="371" y="149" dominant-baseline="central" font-family="sans-serif" font-size="12" text-decoration="normal" transform="translate(-255.6 -124.8)">+24V</text>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M128.4 163.2v16m10 0h-20m16 5h-12m8 5h-4" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#08f708" stroke-miterlimit="10" stroke-width="3" d="M32.4 51.2v16" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#40bf40" stroke-miterlimit="10" stroke-width="3" d="M32.4 99.2v16" paint-order="fill stroke markers"/>
+  <g fill="none" stroke-miterlimit="10" stroke-width="3" paint-order="fill stroke markers">
+    <path stroke="url(#c)" d="m0 0 2 6L6-6l4 12 4-12 4 12 4-12 4 12 4-12 2 6" transform="rotate(90 -17.4 49.8)"/>
+    <path stroke="url(#d)" d="M-6 12H6l26-24" transform="rotate(90 -17.4 49.8)"/>
+  </g>
+  <text x="296" y="214" dominant-baseline="alphabetic" font-family="sans-serif" font-size="12" text-decoration="normal" transform="translate(-255.6 -124.8)">53°C=32.2kΩ</text>
+  <path fill="none" stroke="#40bf40" stroke-miterlimit="10" stroke-width="3" d="M32.4 115.2v8" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M32.4 155.2v8" paint-order="fill stroke markers"/>
+  <path fill="none" stroke="url(#e)" stroke-miterlimit="10" stroke-width="3" d="m0 0 2 6L6-6l4 12 4-12 4 12 4-12 4 12 4-12 2 6" paint-order="fill stroke markers" transform="rotate(90 -45.4 77.8)"/>
+  <text x="298" y="270" dominant-baseline="alphabetic" font-family="sans-serif" font-size="12" text-decoration="normal" transform="translate(-255.6 -124.8)">4.7k</text>
+  <path fill="none" stroke="#877878" stroke-miterlimit="10" stroke-width="3" d="M32.4 163.2h96" paint-order="fill stroke markers"/>
+  <path d="M35.4 115.2zm96-64zm0 112z" paint-order="stroke fill markers"/>
+</svg>
