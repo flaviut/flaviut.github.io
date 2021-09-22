@@ -535,15 +535,20 @@ And here we see exactly what we wanted!
       },
 ```
 
+[A full NVS dump from a brand new, never connected, machine can be found
+here.](https://github.com/flaviut/emporia-vue2-reversing/blob/master/nvs.json)
+
 Blob entries are base64-encoded, and the above decode to `emporia` and
 `emporia123`, the wifi credentials that we want to change.
 
 As a bonus, we also get `MQTT_IP`, which we need to change if we're to use this
 on any other networks.
 
-So I wrote `./nvsjson2csv.py`, which allows us to turn the JSON file into a CSV
+So I [wrote `./nvsjson2csv.py`][nvsjson2csv], which allows us to turn the JSON file into a CSV
 file suitible for use with the [NVS partition generator
 tool](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_partition_gen.html)
+
+[nvsjson2csv]: https://github.com/flaviut/emporia-vue2-reversing/blob/master/nvsjson2csv.py
 
 Then the `nvs.json` file can be updated with the correct WiFi credentials and
 my MQTT server's IP address.
