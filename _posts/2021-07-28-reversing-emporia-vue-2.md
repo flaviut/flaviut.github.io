@@ -4,6 +4,21 @@ tags: [embedded, hardware, iot, reverse engineering]
 title: "Reverse-engineering the Emporia Vue 2"
 ---
 
+*Call to action:* Do you have software development or reverse engineering
+experience? The information below is for you, but there are plenty of folks out
+there who don't have the expertise to do this stuff. Help would be greatly
+appreciated in:
+
+- Writing an step-by-step guide + automated program to unlock the Vue 2 for
+  local use.
+- Building a Home Assistant integration to ingest this data
+- Reverse engineering how the raw I2C data + calibration data are combined to
+  produce a result, so we can replace the firmware with something fully
+  open-source.
+
+Interested? [Contact me](mailto:me@flaviutamas.com)! My schedule is very busy
+these days, but I always have time to answer questions!
+
 I grabbed a Emporia Vue 2 to keep track of my home's energy usage, since it is
 one of the few listed WiFi energy monitors.
 
