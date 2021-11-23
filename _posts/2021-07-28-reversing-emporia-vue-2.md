@@ -105,7 +105,9 @@ things, like the string
 to see, since it appears that the device uses MQTT, a standard protocol, to
 report results.
 
-One interesting to note from the log above are the lines stating
+One interesting to note from the serial log ([which I have a dump of here][seriallog]) are the lines stating
+
+[seriallog]: https://github.com/flaviut/emporia-vue2-reversing/blob/master/seriallog.log
 
 ```
 I (250138) WiFiTask: Wifi connect to: emporia
@@ -263,6 +265,10 @@ This is great! The first segment I bet is raw sensor readings, and the second
 segment contains our actual desired data. We're done trying to figure out how
 how this works, we just need to figure out how to get it on our system instead
 of theirs.
+
+If anyone else is looking to actually understand how the raw readings correspond to the data without modifying the software on their device yet, [there's an extensive dump of MQTT messages here][example_messages].
+
+[example_messages]: https://github.com/flaviut/emporia-vue2-reversing/blob/master/example_messages.txt
 
 It's not particularly practical to have to host an access point with the same
 password, this introduces vulnerability since anyone could come in and take
@@ -433,6 +439,8 @@ allows us to dump that information:
 ```console
 $ python3 esp32_image_parser.py dump_nvs ../flash_contents.bin -partition nvs -nvs_output_type json > ../nvs.json
 ```
+
+[Here's a full copy of the NVS I had on my system](https://github.com/flaviut/emporia-vue2-reversing/blob/master/nvs.json).
 
 And here we see exactly what we wanted!
 
