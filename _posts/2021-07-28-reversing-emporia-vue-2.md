@@ -4,20 +4,22 @@ tags: [embedded, hardware, iot, reverse engineering]
 title: "Reverse-engineering the Emporia Vue 2"
 ---
 
-*Call to action:* Do you have software development or reverse engineering
-experience? The information below is for you, but there are plenty of folks out
-there who don't have the expertise to do this stuff. Help would be greatly
-appreciated in:
+## Update
 
-- Writing an step-by-step guide + automated program to unlock the Vue 2 for
-  local use.
-- Building a Home Assistant integration to ingest this data
-- Reverse engineering how the raw I2C data + calibration data are combined to
-  produce a result, so we can replace the firmware with something fully
-  open-source.
+We have a working ESPHome component for the Emporia Vue 2, thanks to the hard
+work of [Alexandre-Jacques St-Jacques](https://github.com/Maelstrom96) and
+[Kodey Converse](https://github.com/krconv)! You can [find instructions on
+setting it up
+here](https://gist.github.com/flaviut/93a1212c7b165c7674693a45ad52c512).
 
-Interested? [Contact me](mailto:me@flaviutamas.com)! My schedule is very busy
-these days, but I always have time to answer questions!
+If you have any questions or comments, or if you're looking to help in some
+way, discussion has been happening on the [this post's companion repo's issue
+tracker](https://github.com/flaviut/emporia-vue2-reversing/issues/).
+
+If you're looking to contribute to the reverse engineering, [discussion on that
+is here](https://github.com/flaviut/emporia-vue2-reversing/issues/1).
+
+-------------
 
 I grabbed a Emporia Vue 2 to keep track of my home's energy usage, since it is
 one of the few listed WiFi energy monitors.
