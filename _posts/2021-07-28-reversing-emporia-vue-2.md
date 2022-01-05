@@ -17,7 +17,13 @@ way, discussion has been happening on the [this post's companion repo's issue
 tracker](https://github.com/flaviut/emporia-vue2-reversing/issues/).
 
 If you're looking to contribute to the reverse engineering, [discussion on that
-is here](https://github.com/flaviut/emporia-vue2-reversing/issues/1).
+is here](https://github.com/flaviut/emporia-vue2-reversing/issues/1). The
+coding work is being done in the following places:
+
+- https://github.com/krconv/esphome/tree/add-emporia-vue-maelstrom96
+- https://github.com/Maelstrom96/esphome/tree/add-emporia-vue2-staging
+- https://github.com/esphome/esphome/pull/2871
+- https://github.com/esphome/esphome-docs/pull/1702
 
 -------------
 
