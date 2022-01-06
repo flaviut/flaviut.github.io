@@ -16,7 +16,9 @@ layout: compress
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>{% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.2/es5/tex-svg.min.js" integrity="sha512-9irB0qyXMAf4xUF5UEVOhb4NMCWo7xeKakVbl0lfJ09HyhrplRCqTFMtaW6lP7G0IbHfIcmSo3dFZrWcrsGnOA==" crossorigin="anonymous" async></script>
+    <script>
+      document.addEventListener("DOMContentLoaded",()=>{var t=["script","noscript","style","textarea","pre","code","annotation","annotation-xml"].map(t=>`:not(${t})`).join(""),e=["mathjax_ignore"].map(t=>`:not(.${t})`).join("");if(Array.from(document.body.querySelectorAll("*"+t+e)).some(t=>t.textContent.match(/\\\(|\$\$|\\\[/))){const n=document.createElement("script");n.setAttribute("src","https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.min.js"),n.setAttribute("integrity","sha512-93xLZnNMlYI6xaQPf/cSdXoBZ23DThX7VehiGJJXB76HTTalQKPC5CIHuFX8dlQ5yzt6baBQRJ4sDXhzpojRJA=="),n.setAttribute("crossorigin","anonymous"),n.setAttribute("referrerpolicy","no-referrer"),document.head.appendChild(n)}});
+    </script>
   </head>
 
   <body>
