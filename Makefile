@@ -1,3 +1,5 @@
+export PATH := $(PWD)/node_modules/.bin:$(PATH)
+
 .PHONY: all
 all: min-css min-images
 
@@ -18,14 +20,15 @@ $(NODE_DEP_HASH): package.json yarn.lock
 .PHONY: install-node
 install-node: $(NODE_DEP_HASH)
 
-build-site: install-ruby $(shell find _layouts _posts _includes -type f)
+build-site: install-ruby $(shell find _layouts _posts _includes -type f) min-images
 	bundle exec jekyll build
 
-assets/all.min.css: install-node build-site assets/all.css $(shell find _site -iname '*.html')
-	yarn run -s postcss assets/all.css --use postcss-import --use autoprefixer -b '>0.25%%, not ie 11, not op_mini all' --use cssnano --no-map > assets/all.min.css
-	yarn run -s purifycss assets/all.min.css $(shell find _site -iname '*.html') --min --info -o assets/all.min.css
+_includes/all.min.css: install-node build-site assets/all.css $(shell find _site -iname '*.html')
+	postcss assets/all.css -o _includes/all.min.css
+	purifycss _includes/all.min.css $(shell find _site -iname '*.html') --info -o _includes/all.min.css
+	postcss _includes/all.min.css --replace
 .PHONY: min-css
-min-css: assets/all.min.css
+min-css: _includes/all.min.css
 
 IMAGES = $(shell find assets/images/ \( -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' \) -a ! -name '*.min.*' -type f)
 IMAGES_MIN_1 = $(patsubst %.jpg,%.min.jpg,$(IMAGES))
