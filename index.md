@@ -27,3 +27,4 @@ I also have [a GitHub account][Github], where the majority of my open-source wor
   <li><span style="font-weight: bold"><a href="/tags">Posts by tag</a></span></li>
 </ul>
 
+<a href="/atom.xml">atom</a> / <a href="/rss.xml">rss</a> 
