@@ -41,7 +41,16 @@ Airplane mode has no impact on power draw. When transferring files wirelessly,
 the camera shuts off the sensor and powers on the radio.
 
 I was surprised to see that the viewfinder draws more power than the main
-display. The main display shuts down when the viewfinder is being used.
+display. The main display shuts down when the viewfinder is being used. It
+looks like this may be because [the viewfinder is higher resolution than the
+screen][viewfinder-res].
+
+[viewfinder-res]: https://photo.stackexchange.com/a/94089/63300
+
+The sleep power consumption is disappointingly high. New Sony NP-FZ100
+batteries are rated at 16.4Wh, so you should get only 48 days of power-off time
+before the camera's internal clock resets. I would have liked to see this power
+draw be in the microamps, ideally single-digit microamps.
 
 ## Caveats
 
