@@ -22,7 +22,8 @@ The setup:
 
 | Situation           | Description                                 | Power |
 |---------------------|---------------------------------------------|-------|
-| Off                 | camera fully powered off                    | 39mW  |
+| Sleep               | camera fully powered off                    | 39mW  |
+| Deep sleep          | camera powered off for several minutes      | 14mW  |
 | Viewfinder          | viewfinder in preview mode, auto brightness | 3.30W |
 | Screen, +0          | in preview mode with default brightness     | 2.50W |
 | Screen, -2          | min brightness                              | 2.43W |
