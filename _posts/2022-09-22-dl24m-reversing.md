@@ -1,10 +1,10 @@
 ---
 layout: post
 tags: [hardware, embedded, teardown]
-title: "ATorch DL24 dummy load reversing"
+title: "ATorch DL24 electronic load reversing"
 ---
 
-This page contains essentially my notes on reverse engineering the ATorch DL24 load.
+This page contains essentially my notes on reverse engineering the ATorch DL24 electronic load.
 
 Results here are very rough and this document has not been proofread.
 
