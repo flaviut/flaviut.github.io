@@ -12,18 +12,8 @@ work of [Alexandre-Jacques St-Jacques](https://github.com/Maelstrom96) and
 setting it up
 here](https://gist.github.com/flaviut/93a1212c7b165c7674693a45ad52c512).
 
-If you have any questions or comments, or if you're looking to help in some
-way, discussion has been happening on the [this post's companion repo's issue
-tracker](https://github.com/flaviut/emporia-vue2-reversing/issues/).
-
-If you're looking to contribute to the reverse engineering, [discussion on that
-is here](https://github.com/flaviut/emporia-vue2-reversing/issues/1). The
-coding work is being done in the following places:
-
-- https://github.com/krconv/esphome/tree/add-emporia-vue-maelstrom96
-- https://github.com/Maelstrom96/esphome/tree/add-emporia-vue2-staging
-- https://github.com/esphome/esphome/pull/2871
-- https://github.com/esphome/esphome-docs/pull/1702
+If you run into any issues or need help, [there's also a discussion
+area](https://github.com/emporia-vue-local/esphome/discussions).
 
 -------------
 
@@ -35,6 +25,13 @@ sending my data to their cloud or installing their app on my phone.
 
 So the only way to get that data is to reverse-engineer the board and modify
 the software to do what I need to get the data into Home Assistant.
+
+{% include image.html
+    url="/assets/images/2021-07-28-reversing-emporia-vue-2/front.jpg"
+    description="Photo of the front of the board, click for high-res" %}
+{% include image.html
+    url="/assets/images/2021-07-28-reversing-emporia-vue-2/back.jpg"
+    description="Photo of the back of the board, click for high-res" %}
 
 The following are my mostly-chronological notes about how I got into this
 thing. They're posted in the hope that they'll be useful to other folks trying
