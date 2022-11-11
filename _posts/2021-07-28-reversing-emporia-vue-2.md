@@ -298,18 +298,17 @@ to download firmware onto the device).
 
 But first, let's see what the various commands we have available.
 Unfortunately, it's very difficult to reverse engineer ESP32 flash dumps, so
-we're going to need to use a debugger. After doing some probing, pin 10 on the
-big connector is MTCK and pin 9 is MTMS. No other pins are connected, so this
-corresponds to cJTAG.
+we're going to need to use a debugger. After doing some probing, with H1 pin
+numbering going zig-zag:
 
-1 = VDD (3.3V)
-2, 3 = GND
-
-atmel samd09u:
-6 = PA28/~RST
-10 = PA31/SWDIO
-9 = PA30/SWDCLK
-
+- SAM 19 SWCLK - H1 4
+- SAM 20 SWDIO - H1 2
+- SAM 18 ~{RST} - H1 10
+- 3V3 - H1 1
+- GND - H1 3, 5
+- ESP 16 MTCK - H1 2
+- ESP 13 MTMS - H1 4
+- ESP 11 EMAC_RXD1 - H1 9
 
 ## Reversing, second attempt
 
