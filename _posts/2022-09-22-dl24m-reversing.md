@@ -43,6 +43,9 @@ Possibly I2C, possibly UART?
 
 ### J1, debug
 
+Unfortunately this doesn't do much good since it seems like the debug port has
+been disabled.
+
 | Pin | Signal | Functions |
 |-----|--------|-----------|
 | 1   | VCC    | 3.3V      |
