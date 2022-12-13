@@ -26,15 +26,54 @@ Results here are very rough and this document has not been proofread.
 Everything is controlled by a HDSC HC32L170 microcontroller.
 
 {% include image.html
+  url="/assets/images/2022-09-22-dl24m-reversing/display-back.jpg"
+  description="the reverse side of the control board" %}
+
+### J3, unknown
+
+Possibly I2C, possibly UART?
+
+| Pin | Signal | Functions           |
+|-----|--------|---------------------|
+| 1   | GND    |                     |
+| 2   | PB08   | I2C0_SCL, UART0_TXD |
+| 3   | PB07   | I2C0_SDA, UART0_RXD |
+| 4   | PF06   | I2C1_SCL, UART0_CTS |
+| 5   | PF07   | I2C1_SDA, UART0_RTS |
+
+### J1, debug
+
+| Pin | Signal | Functions |
+|-----|--------|-----------|
+| 1   | VCC    | 3.3V      |
+| 2   | GND    |           |
+| 3   | PA13   | SWDIO     |
+| 4   | PA14   | SWCLK     |
+| 5   | BOOT0  |           |
+
+### J5, BLE serial
+
+With the top pin as pin 1,
+
+| Pin | Signal | Functions   |
+|-----|--------|-------------|
+| 1   | GND    |             |
+| 2   | PA01   | LPUART1_RXD |
+| 3   | PA00   | LPUART1_TXD |
+| 4   | VCC    | 3.3V        |
+
+{% include image.html
   url="/assets/images/2022-09-22-dl24m-reversing/display-ble.jpg"
   description="the bluetooth circuit on the control board" %}
 
 The BLE module (marked BP0D608-68A2) is by [Zhuhai Jieli Technology, a manufacturer
 of Bluetooth chips](https://electronics.stackexchange.com/a/367360/35534).
 
-{% include image.html
-  url="/assets/images/2022-09-22-dl24m-reversing/display-back.jpg"
-  description="the reverse side of the control board" %}
+### J2, control
+
+See the [method of operation](/2022/dl24m-electronics) post.
+
+### Load board
 
 {% include image.html
   url="/assets/images/2022-09-22-dl24m-reversing/expansion-back.jpg"
