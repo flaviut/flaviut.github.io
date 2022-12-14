@@ -72,6 +72,9 @@ With the top pin as pin 1,
 The BLE module (marked BP0D608-68A2) is by [Zhuhai Jieli Technology, a manufacturer
 of Bluetooth chips](https://electronics.stackexchange.com/a/367360/35534).
 
+The first commands send over this serial port are `AT+BDDL24M_SPP` and
+`AT+BMDL24M_BLE`, which seem to set the name of the bluetooth device.
+
 ### J2, control
 
 See the [method of operation](/2022/dl24m-electronics) post.
