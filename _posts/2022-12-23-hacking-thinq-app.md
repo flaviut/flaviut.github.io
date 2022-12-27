@@ -30,8 +30,8 @@ the `smali_classes4/com/lge/emplogin/ui/BaseWebViewActivity$1.smali` class,
 which
 I had trouble reading.
 
-Fortunately, it turns out that there is another took, [jadx][], which can
-decompile into Java code. This code is much clearer:
+Fortunately, it turns out that there is another tool, [jadx][], which can
+decompile APKs into Java code. Much clearer:
 
 [jadx]: https://github.com/skylot/jadx
 
