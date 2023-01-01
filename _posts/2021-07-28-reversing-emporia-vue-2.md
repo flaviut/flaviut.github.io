@@ -9,8 +9,7 @@ title: "Reverse-engineering the Emporia Vue 2"
 We have a working ESPHome component for the Emporia Vue 2, thanks to the hard
 work of [Alexandre-Jacques St-Jacques](https://github.com/Maelstrom96) and
 [Kodey Converse](https://github.com/krconv)! You can [find instructions on
-setting it up
-here](https://gist.github.com/flaviut/93a1212c7b165c7674693a45ad52c512).
+setting it up here](https://github.com/emporia-vue-local/esphome).
 
 If you run into any issues or need help, [there's also a discussion
 area](https://github.com/emporia-vue-local/esphome/discussions).
