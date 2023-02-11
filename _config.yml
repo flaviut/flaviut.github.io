@@ -2,6 +2,11 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:title 
 
+collections:
+  p:
+    output: true
+    permalink: /p/:path/
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor", "node_modules"]
 highlighter: rouge
 
