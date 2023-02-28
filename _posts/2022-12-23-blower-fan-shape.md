@@ -12,7 +12,7 @@ The popcorn popper's fan is a small impeller on a 12V DC motor. The heating
 element is used as a voltage divider to supply the motor.
 
 {% include image.html
-url="/assets/images/2022-11-27-blower-fan-shape/original.jpg"
+url="/assets/images/2022-12-23-blower-fan-shape/original.jpg"
 description="The original impeller and (damaged) fan housing" %}
 
 My first attempt was a propeller using [the Multipropv6.scad tool][multipropv6]
@@ -24,14 +24,14 @@ fine a pitch, and details too difficult to print.
 [goe244-il]: http://airfoiltools.com/airfoil/details?airfoil=goe244-il
 
 {% include image.html
-url="/assets/images/2022-11-27-blower-fan-shape/rev1.jpg"
+url="/assets/images/2022-12-23-blower-fan-shape/rev1.jpg"
 description="The first attempt at a propeller" %}
 
 A second, scaled up attempt came out much better, although the details and pitch
 were still problematic:
 
 {% include image.html
-url="/assets/images/2022-11-27-blower-fan-shape/rev2.jpg"
+url="/assets/images/2022-12-23-blower-fan-shape/rev2.jpg"
 description="The second attempt at a propeller" %}
 
 However, once the popper is put back together, it becomes very clear that these
@@ -55,7 +55,7 @@ I found was that bigger is not always better. With the RS-365SH-2080 motor that
 I've been using, I get much better results with a smaller impeller:
 
 {% include image.html
-url="/assets/images/2022-11-27-blower-fan-shape/comparison.jpeg"
+url="/assets/images/2022-12-23-blower-fan-shape/comparison.jpg"
 description="Suction for of these two impellers" %}
 
 I measured the suction force using a kitchen scale and holding the blower as
