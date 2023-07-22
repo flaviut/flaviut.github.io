@@ -82,6 +82,15 @@ The power board uses a TI TL494 PWM controller to generate the PWM signals for t
 TL494 is connected to the control board by the J5 connector. I haven't traced the purpose of these
 signals, but the TL494 has two error amplifiers that these likely feed into.
 
+#### J2 pinout
+
+| # | Color  | Purpose  |
+|---|--------|----------|
+| 1 | Blue   | I+ Sense |
+| 2 | Yellow | I- Sense |
+| 3 | Red    | V+ Sense |
+| 4 | Black  | V- Sense |
+
 ### Programmable controls
 
 J1 feeds into the UART to USB adapter. This adapter uses a CH340E USB to UART bridge. Cable, in my
@@ -99,11 +108,18 @@ Bluetooth UART bridge and then control the power supply over the network.
 
 ### Fan
 
-The fan is a TM802524SH 24V fan by an unknown manufacturer. There is a spot for a temperature sensor
-of some sort on the control board, but it is not connected. As the requested max load is increased,
-the fan speed increases.
+The fan is a TM802524SH 24V fan by an unknown manufacturer. The temperature sensor is a NTC 4.7kΩ
+thermistor connected between J5 pins 1 and 2. There is a 3kΩ (R6) pull-up resistor to 5V on pin 1 of
+J5.
 
-This fan is very loud when it gets going, even if the actual (not the requested) load is low.
+The fan is however not connected to the microcontroller in any way, and is instead controlled by the
+power board, where an increase in load (regardless of temperature) will increase the fan speed.
+
+The fan output (J8) on the control board is a 5V on/off signal, not PWM, and has nothing plugged in.
+
+This fan is very loud when it gets going, even if the temperature is low. Conveniently, there is a
+second, unused, thermistor port connected in parallel to the first, and this connector can be used
+to read out the temperature & control the fan speed based on temperature.
 
 ### Microcontroller
 
@@ -112,7 +128,8 @@ flash. I tried to connect to it via SWD, but it seems like the debugger interfac
 suspect power glitching may be able to override this (since this is a register setting, not a fuse),
 but I don't know how to do this.
 
-The debug interface is not broken out on the board, so it is necessary to solder wires to the MCU pins.
+The debug interface is not broken out on the board, so it is necessary to solder wires to the MCU
+pins.
 
 ### Control power supply
 
