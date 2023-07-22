@@ -69,10 +69,6 @@ description="The control board back detail (4/5)" %}
 url="/assets/images/2023-07-22-rs310p-reversing/control-board-5.jpg"
 description="The control board back detail (5/5)" %}
 
-{% include image.html
-url="/assets/images/2023-07-22-rs310p-reversing/control-board-front.jpg"
-description="The control board front, showing controls" %}
-
 ## Analysis
 
 ### Coarse feedback
