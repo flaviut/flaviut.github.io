@@ -4,13 +4,22 @@ tags: [ hardware, embedded, teardown ]
 title: "ROCKSEED RS310P programmable power supply reversing"
 ---
 
-This page contains my rough notes on reverse engineering the ROCKSEED RS310P programmable
-power supply. I've focused on the control electronics.
+Other articles in this series:
+
+- [Connecting to ROCKSEED RS310P programmable power supply over WiFi](/2023/rs310p-wifi-mod)
 
 This device is a rebadge of the ETommens eTM-xxxxP series of programmable power supplies,
-and [this power supply specifically looks the closest][et-ref].
+and [this power supply specifically looks the closest][et-ref]. This teardown should be fairly
+applicable to the: Hanmatek HM305P, Rockseed RS305P, Hanmatek HM310P, RockSeed RS310P, Rockseed
+RS605P, eTommens eTM305P, eTommens eTM3010P, eTommens eTM1003P, eTommens eTM1520P, eTommens eTM605P,
+and eTommens eTM1502P.
 
 [et-ref]: https://www.etommensltd.com/product/45
+
+---
+
+This page contains my rough notes on reverse engineering the ROCKSEED RS310P programmable
+power supply. I've focused on the control electronics.
 
 ## Prior work
 
