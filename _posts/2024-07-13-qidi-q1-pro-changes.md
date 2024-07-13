@@ -78,3 +78,7 @@ Parts:
 - wire cutters
 - wire strippers
 - heatshrink/18650 wrap
+
+{% include image.html
+url="/assets/images/2024-07-13-qidi-q1-pro-changes/04-glue.jpg"
+description="Fan control module in the power supply" %}
