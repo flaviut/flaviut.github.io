@@ -66,9 +66,9 @@ in black in the first place.
 
 ## Power supply fan
 
-Even when idle, the power supply fan runs at full power. This modification involves working with
-mains power, so it is not for those inexperienced with mains safety. See [the article on this
-modification for details](/2024/fan-controller).
+Even when idle, the power supply fan runs at full power. This can be fixed, but this modification
+involves working with mains power, so it is not for those inexperienced with mains safety. See
+[the article on this modification for details](/2024/fan-controller).
 
 Parts:
 

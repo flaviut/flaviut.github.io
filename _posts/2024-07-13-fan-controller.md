@@ -94,7 +94,7 @@ url="/assets/images/2024-07-13-fan-controller/05-thermal-input.jpg"
 description="Thermal image of the power supply's mains-side components" %}
 
 {% include image.html
-url="/assets/images/2024-07-13-fan-controller/05-thermal-output.jpg"
+url="/assets/images/2024-07-13-fan-controller/06-thermal-output.jpg"
 description="Thermal image of the power supply's low-side components" %}
 
 The low-side diodes/switches are getting to a cozy but not unreasonable 82°C, while the hottest
