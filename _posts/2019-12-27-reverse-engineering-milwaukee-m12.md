@@ -4,6 +4,9 @@ tags: [hardware, teardown]
 title: "Reverse Engineering Milwaukee M12 Battery Packs"
 ---
 
+*Correction*: A previous version of this post said the resistors were 10Ω. They
+are actually 1kΩ.
+
 I was curious about what the insides of Milwaukee's M12 battery packs look
 like, and it turns out it's fairly simple:
 
